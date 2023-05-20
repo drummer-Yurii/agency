@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button class="bg-violet-500 p-5 rounded-md">Hey</button>
+        <Header />
     </div>
 </template>
 
