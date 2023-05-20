@@ -33,6 +33,9 @@
                     </NuxtLink>
                 </div>
             </div>
+            <div class="basis-1/2 overflow-hidden relative hidden lg:block">
+                <img src="/home.png" alt="Image of a woman" class="object-cover h-[100$]" />
+            </div>
         </div>
     </section>
 </template>
