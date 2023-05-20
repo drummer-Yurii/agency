@@ -42,6 +42,7 @@
                 </div>
             </div>
             <div class="basis-1/2 overflow-hidden relative hidden lg:block">
+                <!-- Chat Button -->
                 <div class="absolute top-5 right-[15%] group cursor-pointer">
                     <div class="h-20 w-16 bg-amber-400 rounded-full relative">
                         <img 
@@ -50,6 +51,25 @@
                         />
                     </div>
                     <p class="font-bold text-xl">Let's chat <br />with us!</p>
+                </div>
+                <!-- Customer review -->
+                <div class="absolute top-1/2 right-[10%]">
+                    <div class="flex relative p-2 rounded-full bg-white w-80 cursor-pointer hover:scale-105 transition-all duration-300">
+                        <!-- Heart -->
+                        <div class="right-5 -top-5 p-2 h-11 w-11 bg-gradient-to-br from-red-100 via-red-500 to-red-600 rounded-full shadow-lg shadow-red-500">
+                            <img src="/heart.png" alt="Heart Icon">
+                        </div>
+                        <img 
+                            src="https://randomuser.me/api/portraits/men/75.jpg" 
+                            alt="Random Customer" 
+                            class="w-14 h-14 rounded-full" 
+                        />
+                        <p class="text-lg font-medium text-gray-600 mx-4">
+                            <span class="font-bold text-black">Mikey</span> has liked
+                            <br />
+                            this community
+                        </p>
+                    </div>
                 </div>
                 <img src="/home.png" alt="Image of a woman" class="object-cover h-[100$]" />
             </div>
